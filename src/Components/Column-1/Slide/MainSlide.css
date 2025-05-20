@@ -1,0 +1,23 @@
+.img-slider{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+.img-slide-img{
+    transition: .5s ease-out;
+    transition-duration: 500;
+}
+.slide-btn{
+    all: unset;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding: 1rem;
+    cursor: pointer;
+    color: purple;
+}
